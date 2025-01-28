@@ -1,3 +1,4 @@
+import React from 'react';
 import communityCards from '../../data/App/community.json';
 import communityCardsrRTL from '../../data/App/community-rtl.json';
 

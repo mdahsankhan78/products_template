@@ -1,3 +1,4 @@
+import React from 'react';
 import aboutData from '../../../data/App/about.json';
 import aboutDataRTL from '../../../data/App/about-rtl.json';
 import FirstContent from './FirstContent';

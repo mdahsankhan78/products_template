@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useRef } from 'react';
 //= Scripts
 import navbarScrollEffect from "./common/navbarScrollEffect";
@@ -25,7 +26,7 @@ const Index = () => {
   }, [navbarRef]);
 
   return (
-    <>
+    <div className='relative'>
       <MainLayout>
         <TopNav style="4" />
         <Navbar navbarRef={navbarRef} />
@@ -42,7 +43,7 @@ const Index = () => {
         </main>
         <Footer />
       </MainLayout>
-    </>
+    </div>
   )
 }
 

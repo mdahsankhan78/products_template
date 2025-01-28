@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import screenshots from '../../data/App/screenshots.json';

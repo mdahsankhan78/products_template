@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
@@ -11,7 +12,7 @@ const Header = ({ rtl }) => {
   }
 
   return (
-    <header className="style-4" data-scroll-index="0">
+    <header className="style-4 overflow-hidden" data-scroll-index="0">
       <div className="content">
         <div className="container">
           <div className="row gx-0">

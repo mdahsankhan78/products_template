@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import ModalVideo from "react-modal-video";
 import testimonialsData from '../../data/App/testimonials.json';
@@ -14,7 +15,7 @@ const Testimonials = ({ rtl }) => {
   }
 
   return (
-    <section className="testimonials style-4 pt-70" data-scroll-index="5">
+    <section className="testimonials style-4 pt-70 overflow-hidden" data-scroll-index="5">
       <div className="container">
         <div className="content">
           <div className="row">

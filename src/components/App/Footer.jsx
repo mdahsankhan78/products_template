@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 
 
@@ -20,7 +21,7 @@ const Footer = ({ noWave, rtl }) => {
   }
 
   return (
-    <footer className={`style-4 ${noWave ? 'mt-0 pt-100' : ''}`} data-scroll-index="8">
+    <footer className={`style-4 ${noWave ? 'mt-0 pt-100' : 'pt-20'}`} data-scroll-index="8">
       <div className="container">
         <div className="section-head text-center style-4">
           <h2 className="mb-10">{rtl ? 'جاهز' : 'Ready To'} <span>{rtl ? 'للتنزيل' : 'Download'}</span> </h2>
@@ -110,7 +111,7 @@ const Footer = ({ noWave, rtl }) => {
             </Link>
           </small>
         </div>
-        {!noWave && <img src="/assets/img/footer/footer_4_wave.png" alt="" className="wave" />}
+        {/* {!noWave && <img src="/assets/img/footer/footer_4_wave.png" alt="" className="wave" style={{bottom:'98%' }}/>} */}
       </div>
     </footer>
   )

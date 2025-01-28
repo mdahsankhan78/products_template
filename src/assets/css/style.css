@@ -1,3 +1,4 @@
+@import "tailwindcss";
 /*
 Theme Name: Iteck     
 Theme URI: https://themeforest.net/
@@ -2304,7 +2305,7 @@ small.text {
     justify-content: center; }
 
 .navbar.style-4 {
-  position: relative;
+  /* position: relative; */
   z-index: 99;
   padding: 20px 15px;
   background-color: #fff;
@@ -10487,7 +10488,7 @@ footer.style-4 {
     position: absolute;
     left: -3%;
     bottom: 95%;
-    width: 106%;
+    width: 100%;
     max-width: unset;
     height: 240px;
     -o-object-fit: cover;

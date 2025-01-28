@@ -1,3 +1,4 @@
+import React from 'react';
 import features from '../../data/App/features.json';
 import featuresRTL from '../../data/App/features-rtl.json';
 

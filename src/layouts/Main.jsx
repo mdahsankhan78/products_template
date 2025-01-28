@@ -1,4 +1,4 @@
-//= React
+import React from 'react';
 import { useEffect } from 'react';
 //= Components
 import PreLoader from "../components/PreLoader";

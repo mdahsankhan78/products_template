@@ -1,3 +1,4 @@
+import React from 'react';
 import plans from '../../data/App/plans.json';
 import plansRTL from '../../data/App/plans-rtl.json';
 import { Link } from 'react-router-dom';

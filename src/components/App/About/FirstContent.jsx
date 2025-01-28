@@ -1,3 +1,4 @@
+import React from 'react';
 
 const FirstContent = ({ features, rtl }) => {
   return (

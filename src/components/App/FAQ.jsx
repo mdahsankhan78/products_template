@@ -1,3 +1,4 @@
+import React from 'react';
 import faq from '../../data/App/faq.json';
 import faqRTL from '../../data/App/faq-rtl.json';
 
@@ -5,7 +6,7 @@ const FAQ = ({ rtl }) => {
   const data = rtl ? faqRTL : faq;
 
   return (
-    <section className="faq section-padding style-4 pt-50" data-scroll-index="7">
+    <section className="faq section-padding style-4 pt-50 overflow-hidden" data-scroll-index="7">
       <div className="container">
         <div className="section-head text-center style-4">
           <small className="title_small">{ rtl ? 'أسئلة شائعة' : 'Frequently Asked Question' }</small>

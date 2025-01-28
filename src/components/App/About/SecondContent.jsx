@@ -1,3 +1,4 @@
+import React from 'react';
 
 const SecondContent = ({ accordions, rtl }) => {
   return (
